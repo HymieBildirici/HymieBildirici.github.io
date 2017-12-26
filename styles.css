@@ -1,0 +1,12 @@
+body{
+    font-family: American Typewriter;
+    background-color: lightblue;
+    margin: 0;
+}
+img {
+    width: 250px;
+    margin-left: calc((100vw - 250px) / 2);
+}
+h1 {
+    text-align: center;
+}
