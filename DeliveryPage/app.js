@@ -10,6 +10,10 @@ function submitInfo() {
              "entry.175951092":document.getElementById('times').options[document.getElementById('times').selectedIndex].value},
       type:"POST",
       dataType:"xml",
-      //statusCode: {0: afterSubmitHandler(payment, term), 200: afterSubmitHandler(payment, term)}
+      statusCode: {0: afterSubmitHandler(), 200: afterSubmitHandler()}
     });
+}
+
+function afterSubmitHandler() {
+    console.log("Submitted");
 }
