@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Food Delivery Sign Up</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="app.js" charset="utf-8"></script>
     </head>
     <body>
@@ -12,9 +13,9 @@
             <h3 class="Center">I'm going to be busting my balls delivering bagels and orange juice to you lazy assholes every night at the time of your convenience.</h3>
             <div id="innerContainer">
                 <div class="fiftyp">
-                    <h4>I'm charging $2 for each delivery + a venmo of exact change of whatever you ordered.</h4>
-                    <h4>I charge an extra $2 for all orders over $6 as a sort of overweight fee.</h4>
-                    <h4>You'll recieve a text the day of your order confirming it, any confirmed order's bill must be paid over Venmo or cash that same day.</h4>
+                    <p>I'm charging $2 for each delivery + a venmo of exact change of whatever you ordered.</p>
+                    <p>I charge an extra $2 for all orders over $6 as a sort of overweight fee.</p>
+                    <p>You'll recieve a text the day of your order confirming it, any confirmed order's bill must be paid over Venmo or cash that same day.</p>
                 </div>
                 <div class="fiftyp">
                     <ul id="form">
@@ -56,7 +57,7 @@
                         </li>
                     </ul>
                     <div id="button-container">
-                        <button type="submit" name="button" onclick="printDetails();">Submit</button>
+                        <button type="submit" name="button" onclick="submitInfo();">Submit</button>
                     </div>
                 </div>
             </div>
