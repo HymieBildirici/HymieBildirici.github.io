@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    font-family: American Typewriter;
+}
+
+.Center {
+    width: 100%;
+    text-align: center;
+}
+
+.Container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#inputs {
+    list-style: none;
+}
