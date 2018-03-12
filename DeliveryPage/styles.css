@@ -14,6 +14,14 @@ body {
     margin: 0 auto;
 }
 
+.fiftyp {
+    width: 50%;
+    float: left;
+}
+
+#innerContainer {
+    width: 100%;
+}
 #inputs {
     list-style: none;
 }

@@ -4,49 +4,61 @@
         <meta charset="utf-8">
         <title>Food Delivery Sign Up</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="app.js" charset="utf-8"></script>
     </head>
     <body>
         <div class="Container">
             <h1 class="Center">Automated Food Delivery System</h1>
             <h4 class="Center">I'm going to be busting my balls delivering bagels and orange juice to you lazy assholes every morning at the time of your choice.</h4>
-            <ul id="inputs">
-                <li>
-                    <label for="name">Name: </label>
-                    <input type="text" name="" value="" id="name">
-                </li>
-                <li>
-                    <label for="phone">Phone Number: </label>
-                    <input type="number" name="" value="" id="phone">
-                </li>
-                <li>
-                    <label for="building">Building: </label>
-                    <input type="text" name="" value="" id="building">
-                </li>
-                <li>
-                    <label for="floor">Floor: </label>
-                    <input type="number" name="" value="" id="floor">
-                </li>
-                <li>
-                    <label for="room">Room Number: </label>
-                    <input type="number" name="" value="" id="room">
-                </li>
-                <li>
-                    <label for="order">Order: </label>
-                    <input type="text" name="" value="" placeholder="Bagel w Creamcheese and..." id="order">
-                </li>
-                <li>
-                    <label for="times">Times: </label>
-                    <select class="" name="" id="times">
-                        <option value="9:30-10:00">9:30pm-10:00pm</option>
-                        <option value="10:00pm-10:30pm">10:00pm-10:30pm</option>
-                        <option value="10:30pm-11:00pm">10:30pm-11:00pm</option>
-                        <option value="11:00pm-11:30pm">11:00pm-11:30pm</option>
-                        <option value="11:30pm-12:00am">11:30pm-12:00am</option>
-                        <option value="12:00am-12:30am">12:00am-12:30am</option>
-                        <option value="12:30am-1:00am">12:30am-1:00am</option>
-                    </select>
-                </li>
-            </ul>
+            <div id="innerContainer">
+                <div class="fiftyp">
+                    <ul id="inputs">
+                        <li>
+                            <label for="name">Name: </label>
+                            <input class="formFields" type="text" name="" value="" id="name">
+                        </li>
+                        <li>
+                            <label for="phone">Phone Number: </label>
+                            <input class="formFields" type="number" name="" value="" id="phone">
+                        </li>
+                        <li>
+                            <label for="building">Building: </label>
+                            <input class="formFields" type="text" name="" value="" id="building">
+                        </li>
+                        <li>
+                            <label for="floor">Floor: </label>
+                            <input class="formFields" type="number" name="" value="" id="floor">
+                        </li>
+                        <li>
+                            <label for="room">Room Number: </label>
+                            <input class="formFields" type="number" name="" value="" id="room">
+                        </li>
+                        <li>
+                            <label for="order">Order: </label>
+                            <input class="formFields" type="text" name="" value="" placeholder="Bagel w Creamcheese and..." id="order">
+                        </li>
+                        <li>
+                            <label for="times">Times: </label>
+                            <select class="" name="" id="times">
+                                <option value="9:30-10:00">9:30pm-10:00pm</option>
+                                <option value="10:00pm-10:30pm">10:00pm-10:30pm</option>
+                                <option value="10:30pm-11:00pm">10:30pm-11:00pm</option>
+                                <option value="11:00pm-11:30pm">11:00pm-11:30pm</option>
+                                <option value="11:30pm-12:00am">11:30pm-12:00am</option>
+                                <option value="12:00am-12:30am">12:00am-12:30am</option>
+                                <option value="12:30am-1:00am">12:30am-1:00am</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <button type="submit" name="button" onclick="printDetails();">Submit</button>
+                </div>
+                <div class="fiftyp">
+                    <h3>I'm charging $2 for each delivery + a venmo of exact change of whatever you ordered.</h3>
+                    <h3>I charge an extra $2 for all orders over $6 as a sort of overweight fee.</h3>
+                    <h3>You'll recieve a text the day of your order confirming it, any confirmed order's bill must be paid over Venmo or cash that same day.</h3>
+                </div>
+            </div>
+
         </div>
     </body>
 
