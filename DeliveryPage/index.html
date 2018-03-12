@@ -9,10 +9,15 @@
     <body>
         <div class="Container">
             <h1 class="Center">Automated Food Delivery System</h1>
-            <h4 class="Center">I'm going to be busting my balls delivering bagels and orange juice to you lazy assholes every morning at the time of your choice.</h4>
+            <h3 class="Center">I'm going to be busting my balls delivering bagels and orange juice to you lazy assholes every morning at the time of your choice.</h3>
             <div id="innerContainer">
                 <div class="fiftyp">
-                    <ul id="inputs">
+                    <h4>I'm charging $2 for each delivery + a venmo of exact change of whatever you ordered.</h4>
+                    <h4>I charge an extra $2 for all orders over $6 as a sort of overweight fee.</h4>
+                    <h4>You'll recieve a text the day of your order confirming it, any confirmed order's bill must be paid over Venmo or cash that same day.</h4>
+                </div>
+                <div class="fiftyp">
+                    <ul id="form">
                         <li>
                             <label for="name">Name: </label>
                             <input class="formFields" type="text" name="" value="" id="name">
@@ -50,12 +55,9 @@
                             </select>
                         </li>
                     </ul>
-                    <button type="submit" name="button" onclick="printDetails();">Submit</button>
-                </div>
-                <div class="fiftyp">
-                    <h3>I'm charging $2 for each delivery + a venmo of exact change of whatever you ordered.</h3>
-                    <h3>I charge an extra $2 for all orders over $6 as a sort of overweight fee.</h3>
-                    <h3>You'll recieve a text the day of your order confirming it, any confirmed order's bill must be paid over Venmo or cash that same day.</h3>
+                    <div id="button-container">
+                        <button type="submit" name="button" onclick="printDetails();">Submit</button>
+                    </div>
                 </div>
             </div>
 

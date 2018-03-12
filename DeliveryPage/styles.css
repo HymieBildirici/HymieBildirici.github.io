@@ -19,9 +19,21 @@ body {
     float: left;
 }
 
-#innerContainer {
-    width: 100%;
+#button-container {
+    width: 30px;
+    margin: 0 auto;
 }
-#inputs {
+
+#innerContainer {
+    margin: 40px auto;
+    width: 90%;
+
+}
+#form {
     list-style: none;
+}
+@media only screen and (max-width: 640px) {
+    .fiftyp {
+        width: 100%;
+    }
 }
