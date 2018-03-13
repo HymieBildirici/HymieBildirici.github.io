@@ -5,8 +5,17 @@ body {
 }
 img {
     width: 250px;
-    margin-left: calc((100vw - 250px) / 2);
 }
 h1, a {
+    text-align: center;
+}
+
+a {
+    margin-top: 50px;
+    color: black
+}
+
+.Container {
+    width: 100%;
     text-align: center;
 }
