@@ -15,5 +15,5 @@ function submitInfo() {
 }
 
 function afterSubmitHandler() {
-    console.log("Submitted");
+    alert("Your order was submitted successfully.");
 }
