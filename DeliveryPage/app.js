@@ -15,5 +15,5 @@ function submitInfo() {
 }
 
 function afterSubmitHandler() {
-    alert("Your order was submitted successfully.");
+    setTimeout(function(){ alert("Your order was submitted successfully."); }, 1000);
 }
