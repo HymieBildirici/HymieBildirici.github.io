@@ -10,10 +10,12 @@ function submitInfo() {
              "entry.175951092":document.getElementById('times').options[document.getElementById('times').selectedIndex].value},
       type:"POST",
       dataType:"xml",
-      statusCode: {0: afterSubmitHandler(), 200: afterSubmitHandler()}
+      statusCode: {0: thereWasAnError(), 200: afterSubmitHandler()}
     });
 }
+function thereWasAnError() {
 
+}
 function afterSubmitHandler() {
     setTimeout(function(){ alert("Your order was submitted successfully."); }, 1000);
 }
